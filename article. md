@@ -1,0 +1,22 @@
+# Using Machine Learning to Predict Student Performance (SDG 4)
+
+## 🎯 SDG Problem
+This project focuses on **SDG 4: Quality Education** — specifically, predicting students’ final grades to identify those at risk of underperformance and enable early support.
+
+## 🤖 ML Approach
+We used a dataset of student background and academic records (student-mat.csv) from UCI.  
+Features included study time, family support, absences, and prior grades.  
+We trained a **Linear Regression** model to predict the final grade (G3).
+
+## 📊 Key Results
+- **Mean Squared Error:** 5.02  
+- **R² Score:** 0.76  
+- The model performs well and can reasonably predict final performance.
+
+## 🌍 Ethical Reflection
+Bias may exist based on geography, internet access, or school types.  
+Fairness can be improved by using more diverse data.  
+Still, the model supports SDG 4 by identifying students needing academic help.
+
+## 💡 Impact
+This solution empowers schools and educators to take **data-driven action** early, helping improve learning outcomes for all learners.
